@@ -1,7 +1,7 @@
 version: "3"
 services:
   sagemaker-notebook-container:
-    image: qtangs/sagemaker-notebook:python3
+    image: futurityab/sagemaker-notebook:python3
     container_name: sagemaker-notebook-container
     ports:
       - 8888:8888
