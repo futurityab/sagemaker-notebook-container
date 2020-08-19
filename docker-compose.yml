@@ -6,7 +6,7 @@ services:
     ports:
       - 8888:8888
     environment:
-      AWS_PROFILE: "default-api"
+      AWS_PROFILE: "default"
     volumes:
       - ~/.aws:/home/ec2-user/.aws:ro                                # For AWS Credentials
       - ~/.ssh:/home/ec2-user/.ssh:ro                                # For Git Credentials
